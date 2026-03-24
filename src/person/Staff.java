@@ -1,0 +1,17 @@
+package person;
+
+public class Staff extends Person {
+    private String department;
+
+    public Staff(int id, String name, String email, String department) {
+        super(id, name, email);
+        this.department = department;
+    }
+
+    public String getDepartment() { return department; }
+
+    @Override
+    public String toString() {
+        return super.toString() + " | Role: Staff | Dept: " + department;
+    }
+}
