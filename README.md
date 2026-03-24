@@ -1,3 +1,6 @@
+## Latest Update
+- Menu validation improved
+- Added email validation in Person class
 #CampusCare - Campus Maintenance System
 
 ##Description
