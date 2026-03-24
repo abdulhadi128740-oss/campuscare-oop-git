@@ -40,8 +40,11 @@ public class CampusCare1 {
                 case 2: createTicket(); break;
                 case 3: viewTickets(); break;
                 case 4: updateStatus(); break;
-                case 5: running = false; System.out.println("Exiting..."); break;
-                default: System.out.println("Invalid Option!");
+                case 5: 
+    // TODO: Generate report feature - NOT YET IMPLEMENTED
+    System.out.println("Report feature coming soon...");
+    break;
+case 6: running = false; System.out.println("Exiting..."); break;
             }
         }
     }
