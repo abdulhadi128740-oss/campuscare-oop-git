@@ -1,3 +1,6 @@
+## Recent Updates
+- Added ticket status management
+- Added reporting feature (WIP)
 ## Latest Update
 - Menu validation improved
 - Added email validation in Person class
